@@ -1,199 +1,356 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services & Models | Urban Motion</title>
-  
-  <!-- Подключение CSS файлов -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urban Motion - Services</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
 
-  <!-- Шапка сайта -->
-  <header class="site-header">
-    <div class="container header-container">
-      <a href="index.html" class="logo">Urban<span>Motion</span></a>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="services.html" aria-current="page">Services & Models</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
 
-  <main id="main-content">
-    
-    <!-- СЕКЦИЯ 1: Hero-баннер -->
-    <section class="services-hero">
-      <div class="container">
-        <h1>Electric Fleet & Services</h1>
-        <p>Explore our premium range of electric scooters and e-bikes designed for smart, eco-friendly city travel.</p>
-      </div>
-    </section>
+            <a href="index.html" class="logo">
+                Urban<span> Motion</span>
+            </a>
 
-    <!-- СЕКЦИЯ 2: Каталог с CSS Grid из 6 карточек -->
-    <section class="catalog-section">
-      <div class="container">
-        <div class="section-title">
-          <h2>Our Electric Fleet</h2>
-          <p>Choose the best ride for your daily commute or weekend adventure</p>
-        </div>
-
-        <div class="cards-grid">
-          
-          <!-- Карточка 1 -->
-          <article class="card">
-            <div class="card-badge">Best Seller</div>
-            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80" alt="Urban Motion Pro E-Scooter" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>Urban Motion Pro</h3>
-              <p class="card-spec">Speed: 32 km/h | Range: 45 km</p>
-              <p class="card-desc">Lightweight aluminum frame, dual suspension, and integrated LED safety lighting for seamless commuting.</p>
-              <div class="card-footer">
-                <span class="card-price">$15 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Карточка 2 -->
-          <article class="card">
-            <div class="card-badge">Long Range</div>
-            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80" alt="City Cruiser E-Bike" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>City Cruiser E-Bike</h3>
-              <p class="card-spec">Speed: 25 km/h | Range: 70 km</p>
-              <p class="card-desc">Comfortable ergonomic design with a spacious front basket and multi-level pedal assist mode.</p>
-              <div class="card-footer">
-                <span class="card-price">$20 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Карточка 3 -->
-          <article class="card">
-            <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=600&q=80" alt="Urban Lite Scooter" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>Urban Lite Scooter</h3>
-              <p class="card-spec">Speed: 20 km/h | Range: 25 km</p>
-              <p class="card-desc">Ultra-compact foldable design perfect for last-mile connection to metro and buses.</p>
-              <div class="card-footer">
-                <span class="card-price">$10 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Карточка 4 -->
-          <article class="card">
-            <div class="card-badge">Off-Road</div>
-            <img src="https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=600&q=80" alt="TerrainX Fat-Bike" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>TerrainX Fat-Bike</h3>
-              <p class="card-spec">Speed: 40 km/h | Range: 60 km</p>
-              <p class="card-desc">Extra-wide tires and high-torque motor built for parks, rough roads, and dirt trails.</p>
-              <div class="card-footer">
-                <span class="card-price">$25 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Карточка 5 -->
-          <article class="card">
-            <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=600&q=80" alt="CargoMax E-Carrier" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>CargoMax E-Carrier</h3>
-              <p class="card-spec">Capacity: 120 kg | Range: 50 km</p>
-              <p class="card-desc">Heavy-duty cargo platform ideal for delivery drivers or grocery shopping trips.</p>
-              <div class="card-footer">
-                <span class="card-price">$22 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Карточка 6 -->
-          <article class="card">
-            <div class="card-badge">Speedster</div>
-            <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=600&q=80" alt="Speedster GT" class="card-image" width="600" height="450">
-            <div class="card-content">
-              <h3>Speedster GT</h3>
-              <p class="card-spec">Speed: 45 km/h | Range: 55 km</p>
-              <p class="card-desc">High-speed dual motor scooter with hydraulic disc brakes for experienced riders.</p>
-              <div class="card-footer">
-                <span class="card-price">$30 / hour</span>
-                <a href="contact.html" class="button">Book Ride</a>
-              </div>
-            </div>
-          </article>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html" aria-current="page">
+                    Services Models
+                </a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
 
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- СЕКЦИЯ 3: Дополнительные сервисы -->
-    <section class="included-services">
-      <div class="container">
-        <div class="section-title">
-          <h2>All Rentals Include</h2>
-          <p>We ensure your safety and comfort with every ride</p>
+    <main id="main-content">
+
+        <!-- SECTION 1: HERO -->
+        <section class="services-hero">
+            <div class="container">
+                <h1>Electric Fleet Services</h1>
+
+                <p><b>
+                    Explore our premium range of electric scooters and
+                    e-bikes designed for smart, eco-friendly city travel.
+                    </b>
+                </p>
+            </div>
+        </section>
+
+        <!-- SECTION 2: VEHICLE CATALOG -->
+        <section class="catalog-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Our Electric Fleet</h2>
+                    <p>
+                        Choose the best ride for your daily commute
+                        or weekend adventure.
+                    </p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <!-- CARD 1 -->
+                    <article class="card">
+                        <div class="card-badge">Best Seller</div>
+
+                        <img
+                            src="images/service1.jpg"
+                            alt="Urban Motion Pro E-Scooter"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>Urban Motion Pro</h3>
+
+                            <p class="card-spec">
+                                Speed: 32 km/h | Range: 45 km
+                            </p>
+
+                            <p class="card-desc">
+                                Lightweight aluminum frame, dual suspension,
+                                and integrated LED safety lighting for
+                                seamless commuting.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$15 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 2 -->
+                    <article class="card">
+                        <div class="card-badge">Popular</div>
+
+                        <img
+                            src="images/service2.jpg"
+                            alt="Urban Lite Scooter"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>Urban Lite Scooter</h3>
+
+                            <p class="card-spec">
+                                Speed: 20 km/h | Range: 25 km
+                            </p>
+
+                            <p class="card-desc">
+                                Ultra-compact foldable design perfect for
+                                last-mile connection to metro and buses.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$10 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 3 -->
+                    <article class="card">
+                        <div class="card-badge">Speedster</div>
+
+                        <img
+                            src="images/service3.jpg"
+                            alt="Speedster GT Scooter"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>Speedster GT</h3>
+
+                            <p class="card-spec">
+                                Speed: 45 km/h | Range: 55 km
+                            </p>
+
+                            <p class="card-desc">
+                                High-speed dual motor electric scooter
+                                with hydraulic disc brakes for experienced
+                                urban riders.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$30 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 4 -->
+                    <article class="card">
+                        <div class="card-badge">Long Range</div>
+
+                        <img
+                            src="images/service4.jpg"
+                            alt="City Cruiser E-Bike"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>City Cruiser E-Bike</h3>
+
+                            <p class="card-spec">
+                                Speed: 25 km/h | Range: 70 km
+                            </p>
+
+                            <p class="card-desc">
+                                Comfortable ergonomic design with a
+                                spacious front basket and multi-level
+                                pedal assist mode.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$20 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 5 -->
+                    <article class="card">
+                        <div class="card-badge">Off-Road</div>
+
+                        <img
+                            src="images/service5.jpg"
+                            alt="TerrainX Fat-Bike"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>TerrainX Fat-Bike</h3>
+
+                            <p class="card-spec">
+                                Speed: 40 km/h | Range: 60 km
+                            </p>
+
+                            <p class="card-desc">
+                                Extra-wide tires and high-torque motor
+                                built for parks, rough roads, and dirt trails.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$25 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 6 -->
+                    <article class="card">
+                        <img
+                            src="images/service66.jpeg"
+                            alt="CargoMax E-Carrier"
+                            class="card-image"
+                            width="600"
+                            height="450"
+                        >
+
+                        <div class="card-content">
+                            <h3>CargoMax E-Carrier</h3>
+
+                            <p class="card-spec">
+                                Capacity: 120 kg | Range: 50 km
+                            </p>
+
+                            <p class="card-desc">
+                                Heavy-duty cargo platform ideal for
+                                delivery drivers or grocery shopping trips.
+                            </p>
+
+                            <div class="card-footer">
+                                <span class="card-price">$22 / hour</span>
+                                <a href="contact.html" class="button">
+                                    Book Ride
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+                <!-- END OF CARDS GRID -->
+
+            </div>
+        </section>
+        <!-- END OF CATALOG -->
+
+        <!-- SECTION 3: INCLUDED SERVICES -->
+        <section class="included-services">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>All Rentals Include</h2>
+                    <p>
+                        We ensure your safety and comfort with every ride.
+                    </p>
+                </div>
+
+                <div class="services-flex">
+
+                    <article class="service-box">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Free Helmet Gear</h3>
+                        <p>
+                            Certified safety helmets and reflector vests
+                            are provided with every rental free of charge.
+                        </p>
+                    </article>
+
+                    <article class="service-box">
+                        <div class="service-icon">⚡</div>
+                        <h3>Full Battery Charge</h3>
+                        <p>
+                            All vehicles are handed over fully charged
+                            and inspected by our technical team.
+                        </p>
+                    </article>
+
+                    <article class="service-box">
+                        <div class="service-icon">📞</div>
+                        <h3>24/7 Roadside Assistance</h3>
+                        <p>
+                            If you face a flat tire or battery discharge,
+                            our support team arrives within 20 minutes.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- END OF INCLUDED SERVICES -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-container">
+
+                <div class="footer-info">
+                    <a href="index.html" class="logo">
+                        Urban<span>Motion</span>
+                    </a>
+
+                    <p>
+                        Eco-friendly urban transportation
+                        for modern cities.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <p>Astana, Mangilik El Ave, 55</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: support@urbanmotion.kz</p>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="services-flex">
-          <div class="service-box">
-            <div class="service-icon">🛡️</div>
-            <h3>Free Helmet & Gear</h3>
-            <p>Certified safety helmets and reflector vests are provided with every rental free of charge.</p>
-          </div>
-
-          <div class="service-box">
-            <div class="service-icon">⚡</div>
-            <h3>Full Battery Charge</h3>
-            <p>All vehicles are handed over fully charged and inspected by our technical team.</p>
-          </div>
-
-          <div class="service-box">
-            <div class="service-icon">📞</div>
-            <h3>24/7 Roadside Assistance</h3>
-            <p>If you face a flat tire or battery discharge, our support team arrives within 20 minutes.</p>
-          </div>
+        <div class="footer-bottom">
+            <p>2026 Urban Motion</p>
         </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Футер сайта -->
-  <footer class="site-footer">
-    <div class="container footer-container">
-      <div class="footer-info">
-        <a href="index.html" class="logo text-white">Urban<span>Motion</span></a>
-        <p>Eco-friendly urban transportation for modern cities.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Navigation</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact Info</h4>
-        <p>Astana, Mangilik El Ave, 55</p>
-        <p>Email: support@urbanmotion.kz</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Urban Motion. Front-End Course Assignment #3.</p>
-    </div>
-  </footer>
+    </footer>
 
 </body>
 </html>
